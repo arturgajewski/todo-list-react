@@ -1,0 +1,30 @@
+.task {
+  color: #222;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  margin: 10px;
+  width: 100%;
+}
+
+.taskContent {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 15px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+.list__tasks {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.task__done {
+  text-decoration: line-through;
+}
+
+.list__item--hide {
+  display: none;
+}

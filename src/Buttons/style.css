@@ -1,0 +1,85 @@
+.button__item {
+  justify-self: flex-end;
+  align-self: center;
+  font-weight: 300;
+  color: teal;
+  transition: 1s;
+  border: none;
+  background-color: #fff;
+}
+
+.button__item:hover {
+  color: hsl(180, 100%, 35%);
+  cursor: pointer;
+}
+.button__item:disabled {
+  color: grey;
+  cursor: not-allowed;
+}
+.section__addNewTask {
+  display: grid;
+  grid-template-columns: 1f auto;
+}
+
+.button__task--addNewTask {
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  background-color: teal;
+  border-style: none;
+  color: #fff;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.button__task--addNewTask:hover {
+  background-color: hsla(180, 100%, 25%, 0.832);
+  transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+  .button__task--addNewTask {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  @media (max-width: 952px) {
+    .button__task--addNewTask {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+  }
+}
+
+.button__task {
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  color: white;
+  display: grid;
+  align-items: center;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.button__task--done {
+  background-color: rgb(2, 175, 2);
+}
+
+.button__task--done:hover {
+  background-color: hsla(120, 98%, 35%, 0.853);
+}
+
+.button__task--remove {
+  background-color: #ff0000;
+}
+
+.button__task--remove:hover {
+  background-color: #ff0000ba;
+}

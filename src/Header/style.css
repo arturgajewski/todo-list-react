@@ -1,0 +1,9 @@
+.form__header{
+margin-left: 10px;
+}
+
+.form__header--tittle{
+color: #222;
+font-size: 28px;
+font-family: 'Lato',sans-serif;
+}
