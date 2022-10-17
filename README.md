@@ -10,14 +10,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [NPM Scripts](https://github.com/arturgajewski/todo-list-react#available-scripts)
 
 # Welcome in My List 
-![This is my first a list for people who often forget a lot of things to do and  for learning javasrcipt with you-code.pl](https://raw.githubusercontent.com/arturgajewski/to-do-list/main/images/my_list.png)
+![This is my first a list for people who often forget a lot of things to do and  for learning javasrcipt with you-code.pl](https://raw.githubusercontent.com/arturgajewski/todo-list-react/main/public/my_list.png)
 
 ## DEMO WEBSITE
 
 [DEMO](https://arturgajewski.github.io/todo-list-react/)
 
 ## PREVIEW
-![this is the preview MyList,you can see how it work](https://raw.githubusercontent.com/arturgajewski/to-do-list/main/images/mylisanimation.gif)
+![this is the preview MyList,you can see how it work](https://raw.githubusercontent.com/arturgajewski/todo-list-react/main/public/mylisanimation.gif)
 ## HOW IT WORK?
 
 You can add your plan and when you will done you can mark or delete.
@@ -69,3 +69,6 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+### `npm run deploy`
+You can push changes to github pages with this command. If you use `git push` alone, it will not be publicly visible to the user.
