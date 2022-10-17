@@ -1,4 +1,35 @@
-.section__addNewTask {
-    display: grid;
-    grid-template-columns: 1f auto;
+.section__body {
+  background-color: #ffffff;
+  color: #222;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  margin: 10px;
+  margin-top: 5px;
+  padding: 0px 10px;
+  border: none;
+  display: grid;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .section__body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section__title {
+  color: #222;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  grid-template-columns: auto 1fr;
+  display: grid;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+@media (max-width: 767px) {
+  .section__title {
+    grid-template-columns: 1fr;
+  }
 }
