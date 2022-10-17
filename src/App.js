@@ -4,6 +4,7 @@ import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
 import Footer from "./Footer";
+import Container from "./Container";
 
 const tasks = [
   { id: 1, content: "pokroić jabłko", done: false },
@@ -14,19 +15,28 @@ const hideDoneTasks = false;
 
 function App() {
   return (
-    <main>
-      <Header />
-      <Section title="Dodaj nowe zadanie" body={<Form />} />
+    <Container>
+      <Header 
+      title="Lista zadań" 
+      />
+      <Section 
+      title="Dodaj nowe zadanie" 
+      body={<Form />
+      } 
+      />
       <Section
         title="Lista zadań"
         body={<Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />}
         tasksHiddenButtons={
-          <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />
+          <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} 
+          />
         }
       />
 
-      <Footer />
-    </main>
+      <Footer 
+      content="Author: Artur Gajewski &copy;2022-2023"
+      />
+    </Container>
   );
 }
 
