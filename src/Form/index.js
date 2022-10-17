@@ -9,7 +9,9 @@ const Form = () => (
           minLength="2"
           required
         />
-        <button className="button__addNewTask">Dodaj zadanie</button>
+        <button 
+        className="button__addNewTask">Dodaj zadanie
+        </button>
     </form>
 
 );
