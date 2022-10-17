@@ -29,7 +29,7 @@
   }
 }
 
-.button__addNewTask {
+.form__button {
   background-color: teal;
   border: none;
   color: white;
@@ -40,11 +40,11 @@
   cursor: pointer;
 }
 
-.button__addNewTask:hover {
+.form__button:hover {
   transform: scale(1.1);
   background-color: hsl(180, 100%, 35%);
 }
 
-.button__addNewTask:active {
+.form__button:active {
   background-color: hsl(180, 100%, 45%);
 }

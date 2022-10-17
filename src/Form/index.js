@@ -10,7 +10,7 @@ const Form = () => (
           required
         />
         <button 
-        className="button__addNewTask">Dodaj zadanie
+        className="form__button">Dodaj zadanie
         </button>
     </form>
 
