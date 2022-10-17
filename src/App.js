@@ -16,26 +16,24 @@ const hideDoneTasks = false;
 function App() {
   return (
     <Container>
-      <Header 
+     <Header 
       title="Lista zadań" 
       />
-      <Section 
+     <Section 
       title="Dodaj nowe zadanie" 
       body={<Form />
-      } 
+        } 
       />
       <Section
         title="Lista zadań"
-        body={<Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />}
+        body={
+        <Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />
+      }
         tasksHiddenButtons={
-          <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} 
-          />
+          <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />
         }
       />
-
-      <Footer 
-      content="Author: Artur Gajewski &copy;2022-2023"
-      />
+      <Footer />
     </Container>
   );
 }
