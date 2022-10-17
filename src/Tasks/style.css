@@ -29,11 +29,6 @@
   display: none;
 }
 
-.section__addNewTask {
-  display: grid;
-  grid-template-columns: 1f auto;
-}
-
 .tasks__button {
   width: 30px;
   height: 30px;
