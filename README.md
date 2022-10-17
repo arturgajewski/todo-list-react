@@ -14,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## DEMO WEBSITE
 
-[DEMO](https://arturgajewski.github.io/to-do-list/)
+[DEMO](https://arturgajewski.github.io/todo-list-react/)
 
 ## PREVIEW
 ![this is the preview MyList,you can see how it work](https://raw.githubusercontent.com/arturgajewski/to-do-list/main/images/mylisanimation.gif)
