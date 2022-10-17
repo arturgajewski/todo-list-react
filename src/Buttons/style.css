@@ -21,6 +21,7 @@
   transition: 1s;
   border: none;
   background-color: #fff;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .buttons__item {
@@ -30,7 +31,10 @@
 
 .buttons__item:hover {
   color: hsl(180, 100%, 35%);
-  cursor: pointer;
+}
+
+.buttons__item:active {
+  color: hsl(180, 100%, 45%);
 }
 
 .buttons__item:disabled {

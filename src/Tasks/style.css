@@ -49,10 +49,18 @@
   background-color: hsla(120, 98%, 35%, 0.853);
 }
 
+.tasks__button--done:active {
+  background-color: hsla(120, 98%, 45%, 0.853);
+}
+
 .tasks__button--remove {
-  background-color: #ff0000;
+  background-color: hsl(0, 100%, 50%);
 }
 
 .tasks__button--remove:hover {
-  background-color: #ff0000ba;
+  background-color: hsl(0, 80%, 59%);
+}
+
+.tasks__button--remove:active {
+  background-color: rgb(255, 88, 88);
 }
