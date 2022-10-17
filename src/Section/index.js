@@ -1,18 +1,14 @@
-import "./style.css"
-const Section = ({title,body,tasksHiddenButtons}) => (
-   <section>
-    <fieldset className="form__fieldset--list">
-            <label className="form__label--list">
-              {title}
-              {tasksHiddenButtons}
-            </label>
-        </fieldset>
-        <fieldset className="form__fieldset form__fieldset--listTask">
-            <label className="form__label">
-             {body}
-            </label>
-        </fieldset>
-        </section>
+import "./style.css";
+const Section = ({ title, body, tasksHiddenButtons }) => (
+  <section>
+    <div className="section__body">
+      <div className="section__title">
+        {title}
+        {tasksHiddenButtons}
+      </div>
+    </div>
+    <div className="section__body">{body}</div>
+  </section>
 );
 
 export default Section;
