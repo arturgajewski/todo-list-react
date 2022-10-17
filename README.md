@@ -2,11 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
- - [DEMO](https://github.com/arturgajewski/to-do-list/tree/main#demo-website)
- - [PREVIEW](https://github.com/arturgajewski/to-do-list/tree/main#preview)
- - [HOWITWORK](https://github.com/arturgajewski/to-do-list/tree/main#how-it-work)
- - [USED TECHNOLOGIES](https://github.com/arturgajewski/to-do-list/tree/main#used-technologies)
- - [AUTHOR](https://github.com/arturgajewski/to-do-list/tree/main#author)
+ - [DEMO](https://github.com/arturgajewski/todo-list-react#demo-website)
+ - [PREVIEW](https://github.com/arturgajewski/todo-list-react#preview)
+ - [HOWITWORK](https://github.com/arturgajewski/todo-list-react#how-it-work)
+ - [USED TECHNOLOGIES](https://github.com/arturgajewski/todo-list-react#used-technologies)
+ - [AUTHOR](https://github.com/arturgajewski/todo-list-react#author)
+  - [NPM Scripts](https://github.com/arturgajewski/todo-list-react#available-scripts)
 
 # Welcome in My List 
 ![This is my first a list for people who often forget a lot of things to do and  for learning javasrcipt with you-code.pl](https://raw.githubusercontent.com/arturgajewski/to-do-list/main/images/my_list.png)
