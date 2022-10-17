@@ -1,4 +1,10 @@
 # Tasks List
+## Description
+Do you often forget what you had to do? If so, thanks to my application you will be able to create your own to-do list and thanks to it you will not forget anything.
+This application is easy to use and very intuitive.
+If you do not know how to use it, you can watch the instructional video by clicking on (Preview) in the menu.
+
+I wish you the memory of an elephant :)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
