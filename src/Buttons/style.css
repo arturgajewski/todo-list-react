@@ -7,6 +7,13 @@
   border: none;
   background-color: #fff;
 }
+@media (max-width: 767px) {
+  .buttons {
+    margin-top: 10px;
+    justify-self: center;
+    align-items: center;
+  }
+}
 
 .buttons__item {
   font-weight: 300;
@@ -14,6 +21,11 @@
   transition: 1s;
   border: none;
   background-color: #fff;
+}
+@media (max-width: 767px) {
+  .buttons__item {
+    display: flex;
+  }
 }
 
 .buttons__item:hover {
