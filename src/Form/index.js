@@ -1,8 +1,6 @@
 import "./style.css";
 const Form = () => (
-  <form>
-    <fieldset className="form__fieldset--list">
-      <p className="form__legend--paragraph">
+  <form className="form">
         <input
           className="form__input"
           name="task"
@@ -11,9 +9,7 @@ const Form = () => (
           minLength="2"
           required
         />
-        <button className="button__task--addNewTask">Dodaj zadanie</button>
-      </p>
-    </fieldset>
+        <button className="button__addNewTask">Dodaj zadanie</button>
     </form>
 
 );
