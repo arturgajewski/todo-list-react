@@ -1,11 +1,9 @@
-import './style.css';
+import "./style.css";
 
-const Footer = ({content}) => (
-<footer>
-        <h2 className="footer__author">
-         {content}
-        </h2>
-      </footer>
+const Footer = () => (
+  <footer>
+    <h2 className="footer__author">Author: Artur Gajewski &copy;2022-2023</h2>
+  </footer>
 );
 
 export default Footer;
