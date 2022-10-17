@@ -1,8 +1,8 @@
 import "./style.css";
 
-const Header = () => (
+const Header = ({title}) => (
     <header className="form__header">
-    <h1 className="form__header--tittle"> Lista zadań</h1>
+    <h1 className="form__header--tittle"> {title}</h1>
   </header>
 );
 
