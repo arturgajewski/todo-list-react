@@ -1,9 +1,9 @@
 import './style.css';
 
-const Footer = () => (
+const Footer = ({content}) => (
 <footer>
         <h2 className="footer__author">
-          Author: Artur Gajewski &copy;2022-2023
+         {content}
         </h2>
       </footer>
 );
