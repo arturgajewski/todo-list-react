@@ -3,58 +3,13 @@
   display: grid;
   grid-template-columns: 1fr auto;
   flex-wrap: wrap;
+  margin: 10px;
 }
-
-.form__fieldset {
-  background-color: #ffffff;
-  color: #222;
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  margin-top: 5px;
-  border: none;
-  outline: 1px solid #eaeaea;
-  border: none;
-}
-
-.form__fieldset--list {
-  background-color: #ffffff;
-  color: #222;
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  margin-top: 5px;
-  border: none;
-  display: grid;
-  align-items: center;
-}
-@media (max-width: 390px) {
-  .form__fieldset--list {
+@media (max-width: 767px) {
+  .form {
     grid-template-columns: 1fr;
+    margin: 10px;
   }
-}
-
-.form__fieldset--legend {
-  background-color: #fff;
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-size: 18px;
-  margin-left: 15px;
-  color: #222;
-}
-
-.form__label {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  display: grid;
-  align-content: center;
-  grid-gap: 10px;
-}
-
-.form__label--list {
-  grid-template-columns: auto 1fr;
-  display: grid;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
 }
 
 .form__input {
@@ -62,10 +17,33 @@
   font-family: "Lato", sans-serif;
   font-weight: 300;
   background-color: #ffffff;
-  border: 1px solid #c7c7c7;
-  max-width: 800px;
-  width: 100%;
+  border: 1px solid #ededed;
   align-self: center;
-  margin-right: 5px;
+  margin-right: 10px;
   cursor: pointer;
+}
+@media (max-width: 767px) {
+  .form__input {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.button__addNewTask {
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 10px;
+  transition: 1s;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+}
+
+.button__addNewTask:hover {
+  transform: scale(1.1);
+  background-color: hsl(180, 100%, 35%);
+}
+
+.button__addNewTask:active {
+  background-color: hsl(180, 100%, 45%);
 }
