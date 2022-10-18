@@ -18,9 +18,20 @@ function App() {
     setHideDone((hideDone) => !hideDone);
   };
 
-const removeTasks = (id) => {
-  setTasks(tasks => tasks.filter(task => task.id !== id));
-}
+  const removeTasks = (id) => {
+    setTasks((tasks) => tasks.filter((task) => task.id !== id));
+  };
+
+  const toggleTasksDone = (id) => {
+    setTasks((tasks) =>
+      tasks.map((task) => {
+        if (task.id === id) {
+          return { ...task, done: !task.done };
+        }
+        return task;
+      })
+    );
+  };
 
   return (
     <Container>
@@ -28,7 +39,14 @@ const removeTasks = (id) => {
       <Section title="Dodaj nowe zadanie" body={<Form />} />
       <Section
         title="Lista zadań"
-        body={<Tasks tasks={tasks} hideDone={hideDone} removeTasks={removeTasks} />}
+        body={
+          <Tasks
+            tasks={tasks}
+            hideDone={hideDone}
+            removeTasks={removeTasks}
+            toggleTasksDone={toggleTasksDone}
+          />
+        }
         tasksHiddenButtons={
           <Buttons
             tasks={tasks}
